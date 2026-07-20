@@ -1,5 +1,3 @@
-# Leetcode_Practice
-
 ## DAY 1:
 
 # PROBLEM: Two Sum
