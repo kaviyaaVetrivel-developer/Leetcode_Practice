@@ -28,4 +28,16 @@
         - Use an `else` statement to convert the current number to a string and append it to the list.
         - After all numbers have been processed, return the final list containing the required output.
 
-        -----------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------------
+
+## DAY 3:
+    PROBLEM: Palindrome Number
+    SOLUTION EXPLANATION:
+
+        - Store the original number in a variable.
+        - Use a `while` loop to reverse the number digit by digit.
+        - Build the reversed number using the formula `palindrome_num = palindrome_num * 10 + digit`.
+        - Use an `if` statement to compare the original number with the reversed number.
+        - Return `True` if both are equal; otherwise, return `False`.
+
+-------------------------------------------------------------------------------------------        
