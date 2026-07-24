@@ -40,4 +40,14 @@
         - Use an `if` statement to compare the original number with the reversed number.
         - Return `True` if both are equal; otherwise, return `False`.
 
--------------------------------------------------------------------------------------------        
+-------------------------------------------------------------------------------------------
+
+## DAY 5:
+    PROBLEM: Reverse Interger
+    SOLUTION EXPLANATION:
+        - Check if the number is negative and convert it to a positive number for easier processing.
+        - Use a `while` loop to reverse the number digit by digit.
+        - Build the reversed number using the formula `reverse = reverse * 10 + digit`.
+        - Restore the negative sign if the original number was negative.
+        - Use an `if` statement to check whether the reversed number is within the 32-bit signed integer range.
+        - Return `0` if the reversed number is out of range; otherwise, return the reversed number.
