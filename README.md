@@ -53,3 +53,15 @@
         - Return `0` if the reversed number is out of range; otherwise, return the reversed number.
 
 ----------------------------------------------------------------------------------------------------
+
+## DAY 6:
+    PROBLEM: Happy numbers
+    SOLUTION EXPLANATIOn:
+        - Create an empty `set` to store the numbers that have already been seen.
+        - Use a `while` loop to repeat the process until the number becomes `1`.
+        - Use an `if` statement to check if the current number is already in the set. If it is, return `False` because a cycle is detected.
+        - Add the current number to the set.
+        - Calculate the sum of the squares of each digit and update the value of `n`.
+        - Return `True` if the number becomes `1`.
+
+----------------------------------------------------------------------------------------------------
