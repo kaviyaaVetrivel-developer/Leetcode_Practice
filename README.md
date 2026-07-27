@@ -66,7 +66,7 @@
 
 ----------------------------------------------------------------------------------------------------
 
-## DAY 6:
+## DAY 7:
     PROBLEM: To lower case
     SOLUTION EXPLANATIOn:
         - Use the built-in `lower()` method to convert all uppercase letters in the string to lowercase.
