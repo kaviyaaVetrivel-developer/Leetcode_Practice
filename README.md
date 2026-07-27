@@ -65,3 +65,11 @@
         - Return `True` if the number becomes `1`.
 
 ----------------------------------------------------------------------------------------------------
+
+## DAY 6:
+    PROBLEM: To lower case
+    SOLUTION EXPLANATIOn:
+        - Use the built-in `lower()` method to convert all uppercase letters in the string to lowercase.
+        - Return the converted string.
+
+----------------------------------------------------------------------------------------------------
