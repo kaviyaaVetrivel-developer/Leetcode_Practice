@@ -73,3 +73,14 @@
         - Return the converted string.
 
 ----------------------------------------------------------------------------------------------------
+
+## DAY 8:
+    PROBLEM: Remove element 
+    SOLUTION EXPLANATIOn:
+        - Initialize a variable `k` to keep track of the position for the next valid element.
+        - Use a `for` loop to traverse the array.
+        - Use an `if` statement to check if the current element is not equal to `val`.
+        - If the element is valid, place it at index `k` and increment `k`.
+        - Return `k`, which represents the number of elements remaining after removing all occurrences of `val`.
+
+----------------------------------------------------------------------------------------------------
