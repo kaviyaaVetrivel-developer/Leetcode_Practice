@@ -45,6 +45,7 @@
 ## DAY 5:
     PROBLEM: Reverse Interger
     SOLUTION EXPLANATION:
+
         - Check if the number is negative and convert it to a positive number for easier processing.
         - Use a `while` loop to reverse the number digit by digit.
         - Build the reversed number using the formula `reverse = reverse * 10 + digit`.
@@ -57,6 +58,7 @@
 ## DAY 6:
     PROBLEM: Happy numbers
     SOLUTION EXPLANATIOn:
+
         - Create an empty `set` to store the numbers that have already been seen.
         - Use a `while` loop to repeat the process until the number becomes `1`.
         - Use an `if` statement to check if the current number is already in the set. If it is, return `False` because a cycle is detected.
@@ -69,6 +71,7 @@
 ## DAY 7:
     PROBLEM: To lower case
     SOLUTION EXPLANATIOn:
+
         - Use the built-in `lower()` method to convert all uppercase letters in the string to lowercase.
         - Return the converted string.
 
@@ -76,11 +79,21 @@
 
 ## DAY 8:
     PROBLEM: Remove element 
-    SOLUTION EXPLANATIOn:
+    SOLUTION EXPLANATION:
+
         - Initialize a variable `k` to keep track of the position for the next valid element.
         - Use a `for` loop to traverse the array.
         - Use an `if` statement to check if the current element is not equal to `val`.
         - If the element is valid, place it at index `k` and increment `k`.
         - Return `k`, which represents the number of elements remaining after removing all occurrences of `val`.
+
+----------------------------------------------------------------------------------------------------
+
+## DAY 8:
+    PROBLEM:Defanging an IP Address
+    SOLUTION EXPLANATION:
+
+        - Use the built-in `replace()` method to replace every `"."` with `"[.]"`.
+        - Return the modified IP address.
 
 ----------------------------------------------------------------------------------------------------
