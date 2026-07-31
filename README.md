@@ -101,5 +101,18 @@
 ## DAY 10:
     PROBLEM:Concatenation-of-array
     SOLUTION EXPLANATION:
+
         - Use the `+` operator to concatenate the array with itself.
         - Return the new array containing two copies of the original array.
+
+----------------------------------------------------------------------------------------------------
+
+## DAY 11:
+    PROBLEM: Squares of a Sorted Array
+    SOLUTION EXPLANATION:
+
+        - Use a generator expression to calculate the square of each element in the array.
+        - Use the built-in `sorted()` function to sort the squared values in non-decreasing order.
+        - Return the sorted array.
+
+----------------------------------------------------------------------------------------------------
