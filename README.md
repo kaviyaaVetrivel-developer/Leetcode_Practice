@@ -89,7 +89,7 @@
 
 ----------------------------------------------------------------------------------------------------
 
-## DAY 8:
+## DAY 9:
     PROBLEM:Defanging an IP Address
     SOLUTION EXPLANATION:
 
@@ -97,3 +97,9 @@
         - Return the modified IP address.
 
 ----------------------------------------------------------------------------------------------------
+
+## DAY 10:
+    PROBLEM:Concatenation-of-array
+    SOLUTION EXPLANATION:
+        - Use the `+` operator to concatenate the array with itself.
+        - Return the new array containing two copies of the original array.
