@@ -5,4 +5,4 @@ class Solution(object):
         :rtype: List[int]
         """
         return sorted(x*x for x in nums)
-        g
+        
