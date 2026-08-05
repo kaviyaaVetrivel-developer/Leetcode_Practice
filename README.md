@@ -116,3 +116,16 @@
         - Return the sorted array.
 
 ----------------------------------------------------------------------------------------------------
+
+## DAY 12:
+    PROBLEM: Find the difference
+    SOLUTION EXPLANATION:
+
+        - Use the `ord()` function to convert each character in both strings into its ASCII value.
+        - Use the `sum()` function to calculate the total ASCII value of each string.
+        - Find the difference between the two sums to get the ASCII value of the extra character.
+        - Use the `chr()` function to convert the ASCII value back into the corresponding character.
+        - Return the extra character.
+
+----------------------------------------------------------------------------------------------------
+
