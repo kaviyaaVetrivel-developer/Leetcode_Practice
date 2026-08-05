@@ -129,3 +129,11 @@
 
 ----------------------------------------------------------------------------------------------------
 
+## DAY 13:
+    PROBLEM: Smallest Even Multiple
+    SOLUTION EXPLANATION:
+        - Use an `if-else` conditional expression to check whether the number is even.
+        - If the number is even, return the number itself.
+        - Otherwise, return the number multiplied by `2`, which is the smallest even multiple.
+
+----------------------------------------------------------------------------------------------------
