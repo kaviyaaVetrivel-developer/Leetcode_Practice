@@ -137,3 +137,14 @@
         - Otherwise, return the number multiplied by `2`, which is the smallest even multiple.
 
 ----------------------------------------------------------------------------------------------------
+
+## DAY 14:
+
+    PROBLEM: Intersection of Two Arrays
+    SOLUTION EXPLANATION:
+        - Convert both arrays into sets to remove duplicate elements.
+        - Use the `&` operator to find the common elements between the two sets.
+        - Convert the resulting set back into a list.
+        - Return the list containing the intersection of the two arrays.
+
+----------------------------------------------------------------------------------------------------
