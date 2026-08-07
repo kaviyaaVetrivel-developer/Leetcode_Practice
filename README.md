@@ -148,3 +148,12 @@
         - Return the list containing the intersection of the two arrays.
 
 ----------------------------------------------------------------------------------------------------
+
+## DAY 14:
+
+    PROBLEM: Add Two Integer
+    SOLUTION EXPLANATION:
+        - Use the `+` operator to add `num1` and `num2`.
+        - Return the sum of the two numbers.
+
+----------------------------------------------------------------------------------------------------
